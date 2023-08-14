@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); */
+/* @import "./fonts/hagna/Hagna-Regular.woff"; */
+body {
+  margin: 0;
+  font-family: "hagna-otf", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 3ms ease;
+  color: #343434;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "NicoMoji";
+  src: url("./fonts/Nico-Moji/nicomoji/NicoMoji-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "hagna-otf";
+  src: url("./fonts/hagna/Hagna-Regular.woff") format("woff");
+  font-weight: 48;
+}
